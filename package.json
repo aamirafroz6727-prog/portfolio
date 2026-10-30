@@ -1,0 +1,12 @@
+{
+  "name": "aamir-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aamir Afroz's personal portfolio with weather and a Groq-powered portfolio chatbot.",
+  "scripts": {
+    "local": "vercel dev"
+  },
+  "devDependencies": {
+    "vercel": "^41.6.2"
+  }
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aamir Afroz's personal portfolio: CSE student, skills, projects, and an AI portfolio assistant.">
+  <meta name="theme-color" content="#0b1f3a">
+  <title>Aamir Afroz | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Aamir Afroz home"><span class="brand-mark">A</span><span>Aamir Afroz<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#weather">Weather</a><a href="#assistant">AI Assistant</a><a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode"><span id="themeIcon" aria-hidden="true">☾</span><span id="themeLabel">Dark mode</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> COMPUTER SCIENCE STUDENT · JAIPUR, INDIA</p>
+        <h1>Hi, I'm <span class="gold-text">Aamir Afroz.</span><br>Building my skills,<br>one project at a time.</h1>
+        <p class="hero-intro">I'm a B.Tech Computer Science student at JECRC University who enjoys learning how things work and turning new concepts into practical projects. I'm currently strengthening my programming and web development foundations.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a><a class="button button-outline" href="#contact">Get in touch</a></div>
+        <div class="hero-meta"><span><i class="status-dot"></i> Open to learning opportunities</span><span class="meta-divider">·</span><span>Currently in 3rd semester</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Aamir Afroz monogram illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="portrait-card"><div class="portrait-topline"><span>PORTFOLIO / 2026</span><span>01 — 05</span></div><div class="monogram">AA<span>.</span></div><div class="portrait-bottom"><strong>Aamir Afroz</strong><span>Computer Science & Engineering</span></div></div>
+        <div class="floating-tag tag-code"><span class="tag-symbol">{ }</span><span><strong>Curious mind</strong><small>Always learning</small></span></div>
+        <div class="floating-tag tag-stack"><span class="tag-symbol">✳</span><span><strong>Building basics</strong><small>C · C++ · Web</small></span></div>
+        <span class="hero-spark spark-one">✳</span><span class="hero-spark spark-two">✦</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container two-column">
+        <div><p class="eyebrow">01 / ABOUT ME</p><h2>Learning by <span class="gold-text">doing.</span></h2></div>
+        <div class="about-copy"><p>I'm studying Computer Science and Engineering at JECRC University. My current focus is building a solid base in programming, understanding how websites are put together, and using projects to practice what I learn in class.</p><p>I like work that turns a concept into something people can interact with. Each project is a chance to improve my problem-solving, write clearer code, and become a more confident developer.</p><div class="about-facts"><div><span class="fact-number">03</span><span class="fact-label">Semester</span></div><div><span class="fact-number">06</span><span class="fact-label">Skills in progress</span></div><div><span class="fact-number">05</span><span class="fact-label">Project links</span></div></div></div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading"><div><p class="eyebrow">02 / TOOLKIT</p><h2>Skills I'm <span class="gold-text">working with.</span></h2></div><p class="section-note">A growing toolkit built through coursework, practice, and small projects.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-icon">C</span><h3>C</h3><p>Programming fundamentals</p><div class="skill-track"><span style="width:68%"></span></div></article>
+        <article class="skill-card"><span class="skill-icon">C++</span><h3>C++</h3><p>Logic and problem solving</p><div class="skill-track"><span style="width:62%"></span></div></article>
+        <article class="skill-card"><span class="skill-icon">&lt;/&gt;</span><h3>HTML</h3><p>Web page structure</p><div class="skill-track"><span style="width:72%"></span></div></article>
+        <article class="skill-card"><span class="skill-icon">#</span><h3>CSS</h3><p>Layout and visual styling</p><div class="skill-track"><span style="width:65%"></span></div></article>
+        <article class="skill-card"><span class="skill-icon">JS</span><h3>JavaScript</h3><p>Interactive web features</p><div class="skill-track"><span style="width:48%"></span></div></article>
+        <article class="skill-card"><span class="skill-icon">▦</span><h3>MS Office</h3><p>Documents and presentations</p><div class="skill-track"><span style="width:70%"></span></div></article>
+      </div>
+      <p class="skill-disclaimer">Skill bars are visual estimates, not formal proficiency scores.</p>
+    </section>
+
+    <section class="section section-dark" id="projects">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow eyebrow-light">03 / SELECTED WORK</p><h2>Projects & <span class="gold-text">practice.</span></h2></div><p class="section-note">A selection of coursework and practice repositories. Search by project name or technology.</p></div>
+        <div class="project-tools"><label class="search-box"><span aria-hidden="true">⌕</span><input type="search" id="projectSearch" placeholder="Search projects or technologies…" aria-label="Search projects by name or technology"></label><div class="filter-group" role="group" aria-label="Filter projects by technology"><button class="filter-button active" data-filter="all" type="button">All</button><button class="filter-button" data-filter="python" type="button">Python</button><button class="filter-button" data-filter="javascript" type="button">JavaScript</button><button class="filter-button" data-filter="web" type="button">Web</button></div></div>
+        <p class="search-count" id="searchCount" aria-live="polite">Showing 5 projects</p>
+        <div class="projects-grid" id="projectsGrid">
+          <article class="project-card" data-name="Python Programs Collection" data-tech="python basics programming factorial fibonacci"><div class="project-top"><span class="project-number">PROJECT / 01</span><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-art art-python"><span>Py</span><i>01</i><i>def()</i></div><h3>Python Programs Collection</h3><p>A collection of introductory Python practice. The course brief mentions factorial, Fibonacci, and structure-to-dictionary conversion; check the repository contents for the exact files.</p><div class="tag-list"><span>Python</span><span>Programming basics</span></div><a class="project-link" href="https://github.com/aamirafroz6727-prog/python-factorial" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></article>
+          <article class="project-card" data-name="Messy Python Code Improvement" data-tech="python debugging code improvement"><div class="project-top"><span class="project-number">PROJECT / 02</span><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-art art-code"><span>{ }</span><i>clean code</i><i>02</i></div><h3>Messy Python Code Improvement</h3><p>A practice project associated with improving code readability using AI assistance. The repository link supplied is named “book-reading,” so its exact match to this task should be verified.</p><div class="tag-list"><span>Python</span><span>Code improvement</span></div><a class="project-link" href="https://github.com/aamirafroz6727-prog/book-reading" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></article>
+          <article class="project-card" data-name="Bug Fixing Using Cursor AI" data-tech="debugging cursor ai programming practice"><div class="project-top"><span class="project-number">PROJECT / 03</span><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-art art-bug"><span>✓</span><i>debug</i><i>03</i></div><h3>Bug Fixing Using Cursor AI</h3><p>A coding practice repository provided for the portfolio assignment. The specific bug and correction are not described in the supplied details.</p><div class="tag-list"><span>Debugging</span><span>AI-assisted coding</span></div><a class="project-link" href="https://github.com/aamirafroz6727-prog/Practice-laundirt" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></article>
+          <article class="project-card" data-name="Interactive Quiz Application" data-tech="javascript html css quiz web"><div class="project-top"><span class="project-number">PROJECT / 04</span><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-art art-quiz"><span>Q?</span><i>01 / 05</i><i>04</i></div><h3>Interactive Quiz Application</h3><p>A browser-based quiz that presents multiple-choice questions, checks answers, and displays the final score.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="https://github.com/aamirafroz6727-prog/code-with-ai-quiz-main" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></article>
+          <article class="project-card" data-name="Book Reading List Application" data-tech="javascript html css books web local storage"><div class="project-top"><span class="project-number">PROJECT / 05</span><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-art art-book"><span>▤</span><i>READ / GROW</i><i>05</i></div><h3>Book Reading List Application</h3><p>A simple reading-list concept for keeping track of books and their reading status. The supplied repository is named “Python-Basic-PE,” so its match should be verified.</p><div class="tag-list"><span>Web app</span><span>JavaScript</span></div><a class="project-link" href="https://github.com/aamirafroz6727-prog/Python-Basic-PE" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></article>
+          <div class="empty-state" id="emptyState" hidden><span>⌕</span><h3>No matching projects</h3><p>Try a different project name or technology.</p></div>
+        </div>
+        <p class="repo-note">Repository titles and descriptions should be confirmed against the actual coursework before submission. No live demo links were supplied.</p>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="weather">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">04 / WEATHER TOOL</p><h2>Weather <span class="gold-text">at a glance.</span></h2></div><p class="section-note">Look up current weather for a city. This feature uses Open-Meteo and does not require an API key.</p></div>
+        <div class="weather-panel">
+          <form id="weatherForm" class="weather-form">
+            <label class="sr-only" for="cityInput">City name</label>
+            <input type="text" id="cityInput" name="city" placeholder="Enter a city, e.g. Jaipur" maxlength="100" autocomplete="off" required>
+            <button type="submit" id="weatherButton" class="button button-primary">Get weather <span aria-hidden="true">↗</span></button>
+          </form>
+          <p id="weatherStatus" class="weather-status" role="status" aria-live="polite">Enter a city to see the current weather.</p>
+          <div id="weatherResult" class="weather-result" hidden></div>
+          <p class="weather-credit">Weather data provided by Open-Meteo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="assistant">
+      <div class="section-heading"><div><p class="eyebrow">05 / AI ASSISTANT</p><h2>Ask about <span class="gold-text">my portfolio.</span></h2></div><p class="section-note">Ask about my skills, education, or listed projects. The assistant uses the information on this page as context.</p></div>
+      <div class="assistant-panel"><div class="assistant-heading"><div class="assistant-avatar">AA<span>✦</span></div><div><h3>Aamir's Portfolio Assistant</h3><p><span class="status-dot"></span> Portfolio Q&amp;A · Groq API</p></div><span class="assistant-badge">AI</span></div><div id="chatMessages" class="chat-messages" aria-live="polite"><div class="chat-bubble bot-bubble">Hi! I'm the portfolio assistant. Ask me about Aamir's education, technical skills, or projects.</div></div><div class="suggested-prompts"><button type="button" class="prompt-chip">What skills does Aamir have?</button><button type="button" class="prompt-chip">Tell me about the quiz app.</button><button type="button" class="prompt-chip">Where does Aamir study?</button></div><form id="chatForm" class="chat-form"><label class="sr-only" for="chatInput">Your question</label><input id="chatInput" type="text" maxlength="500" placeholder="Ask a question about this portfolio…" autocomplete="off"><button type="submit" id="sendButton">Send <span aria-hidden="true">↑</span></button></form><p class="chat-status" id="chatStatus" role="status">For local chat, start Vercel with GROQ_API_KEY in .env.local. The live site needs the key in Vercel environment variables.</p></div>
+    </section>
+
+    <section class="section section-soft" id="contact"><div class="container contact-layout"><div><p class="eyebrow">06 / CONTACT</p><h2>Let's connect and <span class="gold-text">keep learning.</span></h2><p class="contact-intro">I'm building my foundations and looking forward to learning from new projects, people, and opportunities.</p></div><div class="contact-links"><a href="mailto:aamirbth85@gmail.com"><span class="contact-icon">✉</span><span><small>EMAIL</small><strong>aamirbth85@gmail.com</strong></span><span class="contact-arrow">↗</span></a><a href="https://github.com/aamirafroz6727-prog" target="_blank" rel="noopener noreferrer"><span class="contact-icon">⌘</span><span><small>GITHUB</small><strong>aamirafroz6727-prog</strong></span><span class="contact-arrow">↗</span></a><a href="https://www.linkedin.com/in/aamir-afroz-b18624379" target="_blank" rel="noopener noreferrer"><span class="contact-icon">in</span><span><small>LINKEDIN</small><strong>Aamir Afroz</strong></span><span class="contact-arrow">↗</span></a></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">A</span><span>Aamir Afroz<span class="brand-dot">.</span></span></a><p>Built with curiosity, practice, and a lot of tabs open.</p><span>© <span id="year"></span> Aamir Afroz</span></div></footer>
+</body>
+</html>
